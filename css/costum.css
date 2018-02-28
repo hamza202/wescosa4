@@ -1,0 +1,93 @@
+.gov-logo-home {
+    align-self: baseline;
+}
+body{
+    direction: ltr;
+    font-family: "Roboto Mono", Monaco, Consolas, "Courier New", monospace
+}
+.page-header{
+    margin: 0;
+    border: 0;
+    padding-bottom: 0;
+}
+.rd-navbar-wrap{
+    height: 190px !important;
+}
+ul.breadcrumbs-custom__path{
+    padding: 0;
+}
+@media (min-width: 992px) {
+    h2, .heading-2 {
+        font-size: 48px;
+        line-height: 1.16667;
+    }
+}
+.filter-tenders label:first-child{
+    width: 100%;
+    max-width: none;
+}
+ul#tenders-inner-page li{
+    padding: 0;
+}
+ul#tenders-inner-page li a{
+    cursor:pointer;
+    width: 100%;
+}
+.filter-tenders .aside-title{
+    background-color: #27348b;
+}
+.ui-to-top{
+    line-height: 38px !important;
+}
+#tenders-inner-page .nav-tabs > li > a{
+    border-radius: 0;
+    color: #fff;
+    padding: 10px 11px;
+
+}
+@media (max-width: 768px) {
+    .filter-container {
+        opacity: 1;
+        transition: all .2s ease-in-out;
+        visibility: visible;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .col-md-3.filter-tenders h3 {
+        font-size: 18px;
+        display: block;
+    }
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: #27348b;
+    color: #fff;
+}
+.filter-container .nav-tabs {
+    background-color: #27348b;
+}
+.nav-tabs > li > a{
+    border-radius: 0;
+    padding: 10px 11px;
+}
+.group-btn input[type=submit]:last-child{
+    border-left-width: 1px;
+}
+.three-in{
+    font-size:13px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+thead{
+    background: #27348b;
+}
+label.no_old_tenders{
+    font-size: 13px;
+}
+.btn, button, input[type=button], input[type=submit], input[type=reset]{
+    background-color: #27348b;
+}
