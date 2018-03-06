@@ -43,9 +43,12 @@
                                 <div class="navigation-custom__content">
                                     <div class="isotope-filters isotope-filters_modern">
                                         <ul class="inline-list">
-                                            <li><a class="active" data-isotope-filter="*" data-isotope-group="products" href="#">All products</a></li>
-                                            <li><a data-isotope-filter="Category 1" data-isotope-group="products" href="#">Tools</a></li>
-                                            <li><a data-isotope-filter="Category 2" data-isotope-group="products" href="#">accessories</a></li>
+                                            <li><a class="" data-isotope-filter="*" data-isotope-group="products" href="#">All products</a></li>
+                                            <li><a data-isotope-filter="Category 1" data-isotope-group="products" href="#" class="">Transformers</a></li>
+                                            <li><a data-isotope-filter="Category 2" data-isotope-group="products" href="#" class="active">Low Voltage Equipment</a></li>
+                                            <li><a data-isotope-filter="Category 3" data-isotope-group="products" href="#" class="">Medium Voltage Equipment</a></li>
+                                            <li><a data-isotope-filter="Category 4" data-isotope-group="products" href="#" class="">High Voltage Equipment</a></li>
+                                            <li><a data-isotope-filter="Category 5" data-isotope-group="products" href="#" class="">Cable Management System</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -55,76 +58,76 @@
                     <!-- Isotope-->
                     <div class="isotope isotope--loaded" data-isotope-layout="fitRows" data-isotope-group="products" style="position: relative; height: 718px;">
                         <div class="row">
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1 Category 5" style="position: absolute; left: 0px; top: 0px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/Transformer2-min.png" alt="" width="120" height="151"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/Transformer2-min.png" alt="" width="120" height="151"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="details.html">Thread Faceplate</a></p>
+                                        <p class="product__title"><a href="single-product.php">Thread Faceplate</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="details.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2" style="position: absolute; left: 292px; top: 0px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2 Category 5" style="position: absolute; left: 292px; top: 0px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/221795-abb9e8976bc02688bf5838523571e0f8.png" alt="" width="179" height="141"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/221795-abb9e8976bc02688bf5838523571e0f8.png" alt="" width="179" height="141"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="details.html">Benchtop Drill Press</a></p>
+                                        <p class="product__title"><a href="single-product.php">Benchtop Drill Press</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="details.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1" style="position: absolute; left: 585px; top: 0px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1 Category 4" style="position: absolute; left: 585px; top: 0px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/wound-core-distribution-transformer.png" alt="" width="157" height="123"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/wound-core-distribution-transformer.png" alt="" width="157" height="123"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="details.html">Lathe Chuck</a></p>
+                                        <p class="product__title"><a href="single-product.php">Lathe Chuck</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="details.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2" style="position: absolute; left: 877px; top: 0px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2 Category 5" style="position: absolute; left: 877px; top: 0px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/temp_power.png" alt="" width="215" height="157"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/temp_power.png" alt="" width="215" height="157"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="details.html">Tool Sharpening System</a></p>
+                                        <p class="product__title"><a href="single-product.php">Tool Sharpening System</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="details.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1" style="position: absolute; left: 0px; top: 359px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1 Category 4" style="position: absolute; left: 0px; top: 359px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/entertainment-panel.png" alt="" width="121" height="168"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/entertainment-panel.png" alt="" width="121" height="168"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="details.html">Fixed Base Router</a></p>
+                                        <p class="product__title"><a href="single-product.php">Fixed Base Router</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="details.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2 Category 4" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2" style="position: absolute; left: 292px; top: 359px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2 Category 3" style="position: absolute; left: 292px; top: 359px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="details.html"><img class="product__image" src="images/TM_2016_05.png" alt="" width="202" height="148"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/TM_2016_05.png" alt="" width="202" height="148"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="single-product.html">5-Speed Drill Press</a></p>
+                                        <p class="product__title"><a href="single-product.php">5-Speed Drill Press</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1" style="position: absolute; left: 585px; top: 359px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 1 Category 3" style="position: absolute; left: 585px; top: 359px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="single-product.html"><img class="product__image" src="images/01.png" alt="" width="219" height="98"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/01.png" alt="" width="219" height="98"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="single-product.html">Planer Package</a></p>
+                                        <p class="product__title"><a href="single-product.php">Planer Package</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2 Category 3" href="single-product.php">details</a></div>
                                 </article>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2" style="position: absolute; left: 877px; top: 359px;">
+                            <div class="col-xs-6 col-sm-4 col-md-3 isotope-item" data-filter="Category 2 Category 3" style="position: absolute; left: 877px; top: 359px;">
                                 <!-- Product-->
-                                <article class="product"> <a class="product__image-wrap" href="single-product.html"><img class="product__image" src="images/0256164189.png" alt="" width="165" height="148"></a>
+                                <article class="product"> <a class="product__image-wrap" href="single-product.php"><img class="product__image" src="images/0256164189.png" alt="" width="165" height="148"></a>
                                     <div class="product__main">
-                                        <p class="product__title"><a href="single-product.html">Circular Saw</a></p>
+                                        <p class="product__title"><a href="single-product.php">Circular Saw</a></p>
                                     </div>
-                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.html">details</a></div>
+                                    <div class="product__footer"><a class="button button-xs button-gray-2" href="single-product.php">details</a></div>
                                 </article>
                             </div>
                         </div>

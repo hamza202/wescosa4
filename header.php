@@ -20,6 +20,8 @@
                         <div class="rd-navbar-content__toggle rd-navbar-static--hidden toggle-original" data-rd-navbar-toggle=".rd-navbar-content"><span></span></div>
                         <div class="rd-navbar-content toggle-original-elements">
                             <div class="rd-navbar-content__item"><a class="button button-xs button-lighter" href="#">Get a quote</a></div>
+                            <div class="rd-navbar-content__item"><a class="button button-xs button-lighter" href="#">Get a profile</a></div>
+
                         </div>
                     </div>
                 </div>
@@ -56,7 +58,7 @@
 
 <!--                            <li class=""><a href="production.php">Production</a></li>-->
 
-                            <li class="  rd-navbar--has-dropdown rd-navbar-submenu"><a href="products.php">Products & services</a>
+                            <li class="  rd-navbar--has-dropdown rd-navbar-submenu"><a href="products.php">Products</a>
                                 <span class="rd-navbar-submenu-toggle"></span>
                                 <ul class="rd-navbar-dropdown rd-navbar-open-right">
                                     <li><a href="#">Transformer</a></li>
@@ -67,7 +69,23 @@
                                 </ul>
                             </li>
 
-                            <li><a href="#">news & media</a></li>
+                            <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                <a href="#">Services</a>
+                                <span class="rd-navbar-submenu-toggle"></span>
+                                <ul class="rd-navbar-dropdown rd-navbar-open-right">
+                                    <li><a href="#">Industrial Services</a></li>
+                                    <li><a href="#">Electrical</a></li>
+                                    <li><a href="#">Temperature</a></li>
+                                    <li><a href="#">Dimensional</a></li>
+                                    <li><a href="#">Electronics</a></li>
+                                    <li><a href="#">Force/Mass</a></li>
+                                    <li><a href="#">Frequency</a></li>
+                                    <li><a href="#">Pressure</a></li>
+                                    <li><a href="#">Others</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Outomation</a></li>
 
                             <li class=""><a href="invetor.php">alliances</a></li>
 

@@ -59,12 +59,9 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="aboutus.php">About us</a>
                             </li>
-                            <li><a href="invest.php">Invest</a>
+                            <li><a href="career.php">Careers</a>
                             </li>
                             <li><a href="products.php">Products</a>
-                            </li>
-                            <li><a href="#">Media</a></li>
-                            <li><a href="career.php">Careers</a>
                             </li>
                         </ul>
                     </div>

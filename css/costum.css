@@ -91,3 +91,13 @@ label.no_old_tenders{
 .btn, button, input[type=button], input[type=submit], input[type=reset]{
     background-color: #27348b;
 }
+.link-block{
+    padding: 0 !important;
+}
+@media (max-width: 767px) {
+    .section-layout-1 .section-layout-aside > * {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

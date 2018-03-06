@@ -4915,7 +4915,7 @@ html:not(.mobile):not(.tablet) .thumb-chloe:hover .thumb-chloe__caption {
 }
 
 .breadcrumbs-custom a, .breadcrumbs-custom a:active, .breadcrumbs-custom a:focus {
-    color: #0b23c2;
+    color: #fff;
 }
 
 .breadcrumbs-custom li {
@@ -6526,7 +6526,10 @@ ul.post-modern__meta [class*='fl-justicons'] {
 }
 
 .isotdope-item:hover img {
-    transform: scale(0.9, 0.9);
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);;
 }
 
 @media (min-width: 1200px) {
@@ -36209,4 +36212,9 @@ a.lang{
     font-family:'JF Flat Regular' ;
     letter-spacing: 0px !important;
     font-size: 15px !important;
+}
+@media (max-width: 767px) {
+    figure.snip1302{
+        margin-top: 10px !important; ;
+    }
 }

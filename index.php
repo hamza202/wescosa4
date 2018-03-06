@@ -33,18 +33,21 @@
             text-align: center;
             background-color: #000000;
         }
+
         .snip1302 * {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             -webkit-transition: all 0.35s 0.5s ease;
             transition: all 0.35s 0.5s ease;
         }
+
         .snip1302 img {
             max-width: 100%;
             height: 100%;
-            opject-fit:cover;
+            opject-fit: cover;
             vertical-align: top;
         }
+
         .snip1302 figcaption {
             position: absolute;
             height: 100%;
@@ -53,6 +56,7 @@
             left: 0;
             z-index: 1;
         }
+
         .snip1302 h2 {
             position: absolute;
             margin: 0;
@@ -68,6 +72,7 @@
             font-weight: 300;
             text-transform: uppercase;
         }
+
         .snip1302 .icons {
             position: absolute;
             bottom: 0;
@@ -76,6 +81,7 @@
             transform: translateX(-50%);
             opacity: 0;
         }
+
         .snip1302 i {
             padding: 10px 5px;
             display: inline-block;
@@ -84,11 +90,13 @@
             text-align: center;
             opacity: 0.7;
         }
+
         .snip1302 i:hover {
             opacity: 1;
             -webkit-transition: all 0.35s ease;
             transition: all 0.35s ease;
         }
+
         .snip1302:before {
             position: absolute;
             bottom: 0;
@@ -102,6 +110,7 @@
             -webkit-transition: all 0.35s 0.3s ease-in;
             transition: all 0.35s 0.3s ease-in;
         }
+
         .snip1302:after {
             content: '';
             position: absolute;
@@ -118,6 +127,7 @@
             -webkit-transition: all 0.35s 0s ease-out;
             transition: all 0.35s 0s ease-out;
         }
+
         .snip1302 a {
             left: 0;
             right: 0;
@@ -126,27 +136,32 @@
             position: absolute;
             z-index: 2;
         }
+
         .snip1302:hover img,
         .snip1302.hover img {
             opacity: 0.4;
         }
+
         .snip1302:hover h2,
         .snip1302.hover h2,
         .snip1302:hover .icons,
         .snip1302.hover .icons {
             opacity: 1;
         }
+
         .snip1302:hover h2,
         .snip1302.hover h2 {
             -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
         }
+
         .snip1302:hover:before,
         .snip1302.hover:before {
             left: 0;
             -webkit-transition: all 0.35s 0s ease-out;
             transition: all 0.35s 0s ease-out;
         }
+
         .snip1302:hover:after,
         .snip1302.hover:after {
             right: 58%;
@@ -171,7 +186,7 @@
     <section class="section section-layout-1">
         <div class="section-layout-main">
             <div class="swiper-container swiper-slider swiper-slider_style-2 swiper-container-horizontal swiper-container-fade"
-                 data-loop="true" data-autoplay="3000" data-simulate-touch="false"  data-slide-effect="fade">
+                 data-loop="true" data-autoplay="3000" data-simulate-touch="false" data-slide-effect="fade">
                 <div class="swiper-wrapper" style="transition-duration: 0ms;">
                     <div class="swiper-slide bg-gray-dark swiper-slide-duplicate swiper-slide-prev"
                          data-slide-bg="images/slider-slide-1-1464x660.jpg" data-swiper-slide-index="2"
@@ -261,17 +276,17 @@
         </div>
         <div class="section-layout-aside">
             <div class="section-layout-aside__item ">
-                    <figure class="snip1302">
-                        <img src="images/home-creative-1-538x200.jpg" alt="sample42"/>
-                        <figcaption>
-                            <h2>Products</h2>
-                            <div class="icons">
-                                <a href="#"><i class="ion-social-reddit-outline"></i></a>
-                                <a href="#"> <i class="ion-social-twitter-outline"></i></a>
-                                <a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                        </figcaption>
-                        <a href="#"></a>
-                    </figure>
+                <figure class="snip1302">
+                    <img src="images/home-creative-1-538x200.jpg" alt="sample42"/>
+                    <figcaption>
+                        <h2>Products</h2>
+                        <div class="icons">
+                            <a href="#"><i class="ion-social-reddit-outline"></i></a>
+                            <a href="#"> <i class="ion-social-twitter-outline"></i></a>
+                            <a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
             </div>
             <div class="section-layout-aside__item">
                 <figure class="snip1302">
@@ -286,6 +301,7 @@
                     <a href="#"></a>
                 </figure>
             </div>
+
             <div class="section-layout-aside__item">
                 <figure class="snip1302">
                     <img src="images/home-creative-3-460x195.jpg" alt="sample42"/>
@@ -298,49 +314,57 @@
                     </figcaption>
                     <a href="#"></a>
                 </figure>
+
             </div>
+
         </div>
     </section>
+    <div class="clearfix"></div>
 
     <!-- Experience since 1999-->
     <section class="section section-md bg-white">
         <div class="bg-gray-4">
             <div class="shell-fluid shell-condensed">
-                <div class="range range-30 range-md-reverse">
-                    <div class="cell-sm-12 cell-md-6">
-                        <div class="section-md shell-fluid-cell">
-                            <div class="box-centered box-width-1">
-                                <h2><span>Experience</span><span class="object-decorated object-decorated_inline"
-                                                                 style="max-width: 125px;"><span
-                                                class="object-decorated__divider"></span><span
-                                                class="heading-5">since 1999</span></span>
-                                </h2>
-                                <p>Our company has been the leading provider of specialty services to North America's
-                                    process industries since 1999. We pay attention to every aspect of our work.</p>
-                                <div class="group-md group-middle button-group"><a class="button button-darker"
-                                                                                   href="contacts.html">get a quote</a>
-                                    <p>or</p><a class="button button-primary" href="#">get a brochure</a>
+                <div class=" range-30 range-md-reverse">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="section-md shell-fluid-cell">
+                                <div class="box-centered box-width-1">
+                                    <h2><span>Experience</span><span class="object-decorated object-decorated_inline"
+                                                                     style="max-width: 125px;"><span
+                                                    class="object-decorated__divider"></span><span
+                                                    class="heading-5">since 1976</span></span>
+                                    </h2>
+                                    <p>Our company has been the leading provider of specialty services to North
+                                        America's
+                                        process industries since 1976. We pay attention to every aspect of our work.</p>
+                                    <div class="group-md group-middle button-group"><a class="button button-darker"
+                                                                                       href="contacts.html">get a
+                                            quote</a>
+                                        <p>or</p><a class="button button-primary" href="#">get a brochure</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="cell-sm-12 cell-md-6 reveal-flex">
-                        <div class="thumb-video"><img class="thumb-video__image" src="images/video-preview-962x465.jpg"
-                                                      alt="" width="962" height="465">
-                            <div class="thumb-video__caption">
-                                <a class="section-video-link bg-overlay popUpVideo"
-                                   href="https://www.youtube.com/watch?v=ebEo1Mazv3Q" target="_blank"></a>
+                        <div class="col-sm-12 col-md-6 reveal-flex">
+                            <div class="thumb-video"><img class="thumb-video__image"
+                                                          src="images/video-preview-962x465.jpg"
+                                                          alt="" width="962" height="465">
+                                <div class="thumb-video__caption">
+                                    <a class="section-video-link bg-overlay popUpVideo"
+                                       href="https://www.youtube.com/watch?v=ebEo1Mazv3Q" target="_blank"></a>
 
-                                <div class="section-content">
-                                    <a class="popUpVideo section-content-play thumb-video__button"
-                                       href="https://www.youtube.com/watch?v=ebEo1Mazv3Q" target="_blank">
-                                        <!--                                    <img src="images/video-preview-962x465.jpg" alt="play video">-->
-                                    </a>
-                                    <p class="section-content-text">See our video!</p>
+                                    <div class="section-content">
+                                        <a class="popUpVideo section-content-play thumb-video__button"
+                                           href="https://www.youtube.com/watch?v=ebEo1Mazv3Q" target="_blank">
+                                            <!--                                    <img src="images/video-preview-962x465.jpg" alt="play video">-->
+                                        </a>
+                                        <p class="section-content-text">See our video!</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -417,9 +441,9 @@
         </div>
         <div class="shell-fluid">
             <div class="isotope isotope-1 isotope--loaded" data-isotope-layout="masonry" data-isotope-group="projects"
-                 style="position: relative; height: 368.719px;">
+                 style="">
                 <div class="row">
-                    <div class="col-xs-6 col-md-4 isotdope-item" style="position: absolute; left: 0px; top: 0px;">
+                    <div class="col-xs-6 col-sm-4 isotdope-item">
                         <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image"
                                                                             src="images/project-1-639x524.jpg" alt=""
                                                                             width="639" height="524">
@@ -428,7 +452,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-2 isotdope-item" style="position: absolute; left: 449px; top: 0px;">
+                    <div class="col-xs-6 col-sm-2 isotdope-item">
                         <!-- Thumb Zoe--><a class="thumb-zoe" href="#" style="    height: 185px;"><img
                                     class="thumb-zoe__image" src="images/project-2-320x262.jpg" alt="" width="320"
                                     height="262">
@@ -436,27 +460,6 @@
                                 <p class="thumb-zoe__title">Second Demo Project</p>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-xs-6 col-md-2 isotdope-item" style="position: absolute; left: 674px; top: 0px;">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image"
-                                                                            src="images/project-4-321x524.jpg" alt=""
-                                                                            width="321" height="524">
-                            <div class="thumb-zoe__caption">
-                                <p class="thumb-zoe__title">Demo Project</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-md-4 isotdope-item" style="position: absolute; left: 899px; top: 0px;">
-                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image"
-                                                                            src="images/project-3-640x524.jpg" alt=""
-                                                                            width="640" height="524">
-                            <div class="thumb-zoe__caption">
-                                <p class="thumb-zoe__title">Demo Project</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-md-2 isotdope-item cc"
-                         style="position: absolute; left: 449px; top: 185px !important;">
                         <!-- Thumb Zoe--><a class="thumb-zoe" href="#" style="height: 145px;"><img
                                     class="thumb-zoe__image" src="images/project-6-320x262.jpg" alt="" width="320"
                                     height="262">
@@ -465,21 +468,44 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-xs-6 col-sm-2 isotdope-item">
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image"
+                                                                            src="images/project-4-321x524.jpg" alt=""
+                                                                            width="321" height="524">
+                            <div class="thumb-zoe__caption">
+                                <p class="thumb-zoe__title">Demo Project</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 isotdope-item" style="">
+                        <!-- Thumb Zoe--><a class="thumb-zoe" href="#"><img class="thumb-zoe__image"
+                                                                            src="images/project-3-640x524.jpg" alt=""
+                                                                            width="640" height="524">
+                            <div class="thumb-zoe__caption">
+                                <p class="thumb-zoe__title">Demo Project</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-2 isotdope-item cc">
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+<div class="clearfix"></div>
     <!-- Clients-->
-    <section class="section section-md section-bottom-0 bg-white text-center" style="padding-top: 170px;">
+    <section class="section section-md section-bottom-0 bg-white text-center">
         <div class="shell shell-wide">
-            <div class="range range-md-center">
-                <div class="cell-lg-11">
-                    <!-- Section Header-->
-                    <div class="section__header">
-                        <h2>Clients</h2>
-                        <div class="section__header-element"><a class="link link-md" href="contacts.html">Get a
-                                Quote</a></div>
+            <div class=" range-md-center">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <!-- Section Header-->
+                        <div class="section__header">
+                            <h2>Clients</h2>
+                            <div class="section__header-element"><a class="link link-md" href="contacts.html">Get a
+                                    Quote</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -489,85 +515,78 @@
                 <div class="cell-md-6 bg-gray-dark bg-image" style="background-image: url(images/parallax-5.jpg);">
                     <div class="section-variant-1">
                         <!-- Owl Carousel-->
-                        <div class="owl-carousel owl-carousel_style-3 owl-theme owl-loaded owl-text-select-on"
-                             data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true"
-                             data-margin="30" data-mouse-drag="false" style="">
-
-                            <div class="item">
-                                <!-- Quote light-->
-                                <article class="quote-light">
-                                    <div class="quote-light__image-wrap"><img class="quote-light__image"
-                                                                              src="images/testimonials-3-88x88.jpg"
-                                                                              alt="" width="88" height="88">
-                                    </div>
-                                    <div class="quote-light__main">
-                                        <p class="q">I have worked with many companies offering supplemental
-                                            industrial services, and out of all those companies you were one
-                                            who really stood out from the rest.</p>
-                                        <ul class="quote-light__meta">
-                                            <li><span class="cite">Khaled AlAhmed</span></li>
-                                            <li><span class="small">CEO “Betaworks”</span></li>
-                                        </ul>
-                                    </div>
-                                </article>
-                            </div>
-
+                        <div class="owl-carousel owl-carousel_style-3" data-items="1" data-dots="true" data-nav="true"
+                             data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
                             <div class="item">
                                 <!-- Quote light-->
                                 <article class="quote-light">
                                     <div class="quote-light__image-wrap"><img class="quote-light__image"
                                                                               src="images/testimonials-1-88x88.jpg"
-                                                                              alt="" width="88" height="88">
+                                                                              alt="" width="88" height="88"/>
                                     </div>
                                     <div class="quote-light__main">
-                                        <p class="q">Wescosa is a company that we can rely on. We often have
-                                            to react to customer needs quickly and we know that they will
-                                            take care of us even at a moment’s notice.</p>
+                                        <p class="q">Creator is a company that we can rely on. We often have to react to
+                                            customer needs quickly and we know that they will take care of us even at a
+                                            moment’s notice.</p>
                                         <ul class="quote-light__meta">
-                                            <li><span class="cite">Sami Khaldi</span></li>
+                                            <li><span class="cite">Jeffrey Neddery</span></li>
                                             <li><span class="small">CEO “BTC Ltd.”</span></li>
                                         </ul>
                                     </div>
                                 </article>
                             </div>
-
-
                             <div class="item">
                                 <!-- Quote light-->
                                 <article class="quote-light">
                                     <div class="quote-light__image-wrap"><img class="quote-light__image"
                                                                               src="images/testimonials-2-88x88.jpg"
-                                                                              alt="" width="88" height="88">
+                                                                              alt="" width="88" height="88"/>
                                     </div>
                                     <div class="quote-light__main">
-                                        <p class="q">Wescosa is a partner we can trust. People do business
-                                            with people they know and trust. That's why we partner with this
-                                            industrial company on everything.</p>
+                                        <p class="q">Creator is a partner we can trust. People do business with people
+                                            they know and trust. That's why we partner with this industrial company on
+                                            everything.</p>
                                         <ul class="quote-light__meta">
-                                            <li><span class="cite">Mohammed Ahmed</span></li>
+                                            <li><span class="cite">John Williams</span></li>
                                             <li><span class="small">CEO “InterInverse”</span></li>
                                         </ul>
                                     </div>
                                 </article>
                             </div>
-
+                            <div class="item">
+                                <!-- Quote light-->
+                                <article class="quote-light">
+                                    <div class="quote-light__image-wrap"><img class="quote-light__image"
+                                                                              src="images/testimonials-3-88x88.jpg"
+                                                                              alt="" width="88" height="88"/>
+                                    </div>
+                                    <div class="quote-light__main">
+                                        <p class="q">I have worked with many companies offering supplemental industrial
+                                            services, and out of all those companies you were one who really stood out
+                                            from the rest.</p>
+                                        <ul class="quote-light__meta">
+                                            <li><span class="cite">Will Peters</span></li>
+                                            <li><span class="small">CEO “Betaworks”</span></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="cell-md-6">
                     <div class="link-block-group"><a class="link-block" href="#"><img src="images/brand-1-176x51.png"
                                                                                       alt="" width="176"
-                                                                                      height="51"></a><a
+                                                                                      height="51"/></a><a
                                 class="link-block" href="#"><img src="images/brand-2-138x76.png" alt="" width="138"
-                                                                 height="76"></a><a class="link-block" href="#"><img
-                                    src="images/brand-3-143x50.png" alt="" width="143" height="50"></a><a
+                                                                 height="76"/></a><a class="link-block" href="#"><img
+                                    src="images/brand-3-143x50.png" alt="" width="143" height="50"/></a><a
                                 class="link-block" href="#"><img src="images/brand-4-172x41.png" alt="" width="172"
-                                                                 height="41"></a></div>
+                                                                 height="41"/></a></div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Page Footer -->
     <?php include('footer.php') ?>
 
